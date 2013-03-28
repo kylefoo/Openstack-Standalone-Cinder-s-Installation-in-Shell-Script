@@ -9,17 +9,25 @@ In the script, locate the following parameters to be modified:
 //Please enter the following parameters
 
 CONTROLLER_IP=%keystone_management_interface%
+
 CONTROLLER_API_IP=%keystone_api_interface%
+
 ADMIN_TENANT=service
+
 ADMIN_USER=cinder
+
 ADMIN_PASS=service_pass
 
 //Please enter the following parameters
 
 MYSQL_CINDER_USER=%mysql_cinder_user%
+
 MYSQL_CINDER_PASS=%mysql_cinder_pass%
+
 MYSQL_HOST=%mysql_host_ip%
+
 MYSQL_CINDER_TABLE=cinder
+
 RABBIT_HOST=%rabbit_host_ip%
 
 The script with such parameters will run accordingly to adapt to your current Openstack setup provided the parameters are correct.
