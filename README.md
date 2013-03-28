@@ -6,7 +6,6 @@ Simply modify the parameters such as IP addresses and Authentications to adapt t
 
 In the script, locate the following parameters to be modified:
 
-Please modify the following to your envoronment's specifications
 --------------------------------------------------
 CONTROLLER_IP=%keystone_management_interface%
 
