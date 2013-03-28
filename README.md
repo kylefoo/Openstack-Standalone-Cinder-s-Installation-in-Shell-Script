@@ -5,9 +5,8 @@ This script aims to install a Cinder node to a existing OpenStack Folsom environ
 Simply modify the parameters such as IP addresses and Authentications to adapt to the current setup of your OpenStack Cloud and run the script for installation.
 
 In the script, locate the following parameters to be modified:
-
-//Please enter the following parameters
-
+//Please find the following parameters and modify
+--------------------------------------------------
 CONTROLLER_IP=%keystone_management_interface%
 
 CONTROLLER_API_IP=%keystone_api_interface%
@@ -18,7 +17,7 @@ ADMIN_USER=cinder
 
 ADMIN_PASS=service_pass
 
-//Please enter the following parameters
+--------------------------------------------------
 
 MYSQL_CINDER_USER=%mysql_cinder_user%
 
@@ -29,6 +28,7 @@ MYSQL_HOST=%mysql_host_ip%
 MYSQL_CINDER_TABLE=cinder
 
 RABBIT_HOST=%rabbit_host_ip%
+-------------------------------------------------
 
 The script with such parameters will run accordingly to adapt to your current Openstack setup provided the parameters are correct.
 Please use at your own risk, checks /var/log/syslog for bugs occurred during installation. Simply discard the node if failure occurred.
